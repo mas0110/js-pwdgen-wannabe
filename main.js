@@ -1,6 +1,11 @@
-prompt('come ti chiami?')
+let nomeUtente = prompt("qualè il tuo nome")
 
-prompt('qualè il tuo cognome?')
+let cognomeUtente = prompt("qualè il tuo cognome?:")
 
-prompt('qualè il tuo colore preferito?')
+let colore = prompt("qualè il tuo colore preferito?:")
 
+text=(nomeUtente + " "+ cognomeUtente + " "+ colore)
+
+document.getElementById("answer").innerHTML = text;
+
+document.getElementById("phrase").innerHTML =(`nomecognomecolorepreferito23`)
