@@ -8,4 +8,4 @@ text=(nomeUtente + " "+ cognomeUtente + " "+ colore)
 
 document.getElementById("answer").innerHTML = text;
 
-document.getElementById("phrase").innerHTML =(`nomecognomecolorepreferito23`)
+document.getElementById("phrase").innerHTML =('La tua password è: mariorossi23')
